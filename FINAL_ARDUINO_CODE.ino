@@ -33,10 +33,10 @@ int l=0;         //Analog LOW
 
 //APP
 
-int peak_start;
-int peak_stop;
-int offpeak_start;
-int offpeak_stop;
+int peak_start = 18;
+int peak_stop = 22;
+int offpeak_start = 22;
+int offpeak_stop = 06;
 
 #define BL V3               //BATTERY LEVEL
 #define PERIOD_INPUT V10    //PERIOD DATA
