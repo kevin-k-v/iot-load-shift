@@ -5,7 +5,7 @@ SoftwareSerial SwSerial(10, 11); // RX, TX
 
 #include <BlynkSimpleStream.h>
 
-char auth[] = "AUTHENTICATION TOKEN";
+char auth[] = "<AUTHENTICATION TOKEN>";
 
 //CONTROL SYSTEM
 int t=0;
